@@ -53,17 +53,31 @@ This project showcases:
 ## 📂 Project Structure
 
 src/
+
 ├── components/ # Reusable UI components
+
 ├── hooks/ # Custom React hooks
+
 ├── integrations/
+
 │ └── supabase/ # Supabase client & queries
+
 ├── lib/ # Utility functions & helpers
+
 ├── pages/ # Application pages / routes
+
 ├── test/ # Test files
+
 ├── types/ # TypeScript type definitions
+
 │
+
 ├── App.tsx # Root App component
+
 ├── main.tsx # Application entry point
+
 ├── App.css # App-level styles
+
 ├── index.css # Global styles
+
 └── vite-env.d.ts # Vite type definitions
