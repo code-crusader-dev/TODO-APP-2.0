@@ -1,84 +1,69 @@
-https://github.com/code-crusader-dev/TODO-APP-2.0/edit/main/README.md
-# ✅ Todo App
+# ✅ Smart Todo App
 
-A modern and user-friendly **Todo Application** built to help users organize, track, and manage their daily tasks efficiently. This project focuses on simplicity, performance, and a clean UI while using modern web development practices. The application is deployed on **Vercel** for fast and reliable access.
+A modern **Smart Todo Application** built with **Vite + React + TypeScript**, styled using **Tailwind CSS**, and integrated with **Supabase** for backend services.  
+The app is fast, scalable, and designed with a clean component-driven architecture.
 
-<img width="1893" height="898" alt="Screenshot 2026-01-21 120400" src="https://github.com/user-attachments/assets/6b8557de-74f4-41a4-ad7b-384c8bba7318" />
+<img width="1893" height="898" alt="Screenshot 2026-01-21 120400" src="https://github.com/user-attachments/assets/d014dd30-9e01-4c5a-a362-f165bd63394f" />
 
 
 🌐 **Live Demo:**  
-👉 https://todo-app-20.vercel.app/
-
+https://todo-app-20.vercel.app/
 
 ---
 
 ## ✨ Overview
 
-This Todo App allows users to create, update, complete, and delete tasks in an intuitive interface. It is designed to be lightweight yet functional, making it suitable for beginners as well as a solid base for future feature expansion.
+Smart Todo App helps users manage daily tasks efficiently with a smooth and responsive user experience.  
+It uses modern frontend tooling, type safety, reusable components, and backend integration for real-world readiness.
 
-This project is ideal for:
-- Learning React / Next.js fundamentals  
-- Understanding state management  
-- Practicing component-based UI design  
-- Deploying projects on Vercel  
+This project showcases:
+- Modular React architecture
+- Custom hooks for logic separation
+- Type-safe development with TypeScript
+- Supabase integration for data handling
+- Modern build tooling with Vite
 
 ---
 
 ## 🚀 Features
 
-- 📝 Add new tasks instantly  
-- ✅ Mark tasks as completed or pending  
-- 🗑️ Delete tasks with a single click  
-- 💾 Task persistence using browser storage (if implemented)  
-- 📱 Fully responsive design  
-- 🎨 Clean and minimal UI  
+- 📝 Create, view, and manage todos
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 💾 Persistent storage using **Supabase**
+- 🧠 Custom React hooks for logic reuse
+- 🎨 Responsive UI
+- ⚡ Fast builds and hot reload with Vite
+- 🧪 Test-ready setup
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React / Next.js  
-- **Language:** JavaScript  
-- **Styling:** CSS / Tailwind CSS  
-- **Deployment:** Vercel  
+- **Frontend:** React + TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Backend:** Supabase
+- **Testing:** Vitest
+- **Linting:** ESLint
+- **Deployment:** Vercel
 
 ---
 
-## 📂 Project Structure (Typical)
+## 📂 Project Structure
 
-├── src/
-
-│ ├── components/
-
-│ ├── pages/
-
-│ ├── styles/
-
-│ └── main.tsx 
-
+src/
+├── components/ # Reusable UI components
+├── hooks/ # Custom React hooks
+├── integrations/
+│ └── supabase/ # Supabase client & queries
+├── lib/ # Utility functions & helpers
+├── pages/ # Application pages / routes
+├── test/ # Test files
+├── types/ # TypeScript type definitions
 │
-
-├── supabase/ 
-
-│
-
-├── index.html 
-
-├── package.json 
-
-├── vite.config.ts 
-
-├── tailwind.config.ts
-
-├── postcss.config.js
-
-├── tsconfig.json 
-
-├── eslint.config.js 
-
-├── vitest.config.ts 
-
-├── bun.lockb
-
-└── README.md
-
+├── App.tsx # Root App component
+├── main.tsx # Application entry point
+├── App.css # App-level styles
+├── index.css # Global styles
+└── vite-env.d.ts # Vite type definitions
