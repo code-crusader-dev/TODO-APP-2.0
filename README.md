@@ -47,38 +47,21 @@ This project is ideal for:
 ## 📂 Project Structure (Typical)
 
 ├── src/
-
 │ ├── components/
-
 │ ├── pages/
-
 │ ├── styles/
-
 │ └── main.tsx 
-
 │
-
 ├── supabase/ 
-
 │
-
 ├── index.html 
-
 ├── package.json 
-
 ├── vite.config.ts 
-
 ├── tailwind.config.ts
-
 ├── postcss.config.js
-
 ├── tsconfig.json 
-
 ├── eslint.config.js 
-
 ├── vitest.config.ts 
-
 ├── bun.lockb
-
 └── README.md
 
