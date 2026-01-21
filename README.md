@@ -1,4 +1,4 @@
-
+https://github.com/code-crusader-dev/TODO-APP-2.0/edit/main/README.md
 # ✅ Todo App
 
 A modern and user-friendly **Todo Application** built to help users organize, track, and manage their daily tasks efficiently. This project focuses on simplicity, performance, and a clean UI while using modern web development practices. The application is deployed on **Vercel** for fast and reliable access.
@@ -47,21 +47,38 @@ This project is ideal for:
 ## 📂 Project Structure (Typical)
 
 ├── src/
+
 │ ├── components/
+
 │ ├── pages/
+
 │ ├── styles/
+
 │ └── main.tsx 
+
 │
+
 ├── supabase/ 
+
 │
+
 ├── index.html 
+
 ├── package.json 
+
 ├── vite.config.ts 
+
 ├── tailwind.config.ts
+
 ├── postcss.config.js
+
 ├── tsconfig.json 
+
 ├── eslint.config.js 
+
 ├── vitest.config.ts 
+
 ├── bun.lockb
+
 └── README.md
 
