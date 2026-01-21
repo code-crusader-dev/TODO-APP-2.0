@@ -46,3 +46,22 @@ This project is ideal for:
 
 ## 📂 Project Structure (Typical)
 
+├── src/ # Application source code
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # App pages / views
+│ ├── styles/ # Global styles
+│ └── main.tsx # App entry point
+│
+├── supabase/ # Supabase configuration
+│
+├── index.html # Root HTML file
+├── package.json # Project dependencies
+├── vite.config.ts # Vite configuration
+├── tailwind.config.ts # Tailwind configuration
+├── postcss.config.js # PostCSS configuration
+├── tsconfig.json # TypeScript configuration
+├── eslint.config.js # ESLint configuration
+├── vitest.config.ts # Test configuration
+├── bun.lockb # Bun lock file
+└── README.md # Project documentation
+
