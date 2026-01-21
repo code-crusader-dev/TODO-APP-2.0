@@ -53,7 +53,6 @@ This project showcases:
 ## 📂 Project Structure
 
 src/
-
 ├── components/ # Reusable UI components
 
 ├── hooks/ # Custom React hooks
